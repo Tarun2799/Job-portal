@@ -1,0 +1,75 @@
+.left{
+    color: black;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .job-header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        padding: 0 5rem;
+
+        .job-info{
+            font-size: x-small;
+            color: gray;
+        }
+
+        .open-status{
+            font-size: x-small;
+            color: green;
+            padding: .25rem;
+            border: 1px solid green;
+            border-radius: .75rem;
+        }
+    }
+
+    .job-loc{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 3px solid rgb(231, 231, 231);
+        gap: 2rem;
+        padding: 1rem 5rem;
+
+        img{
+            width: 1rem;
+        }
+    }
+
+    .job-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        border-bottom: 3px solid rgb(231, 231, 231);
+
+        .skills-title, .language-title, .type-title, .experience-title{
+            color: rgb(145, 145, 145);
+            font-size: smaller;
+        }
+
+        .language-value,.type-value, .experience-value{
+            color: black;
+            font-weight: 600;
+        }
+
+        .skills-list{
+            list-style: decimal;
+            img{
+                width: 1rem;
+            }
+        }
+
+    }
+
+    .job-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 3px solid rgb(231, 231, 231);
+
+    }
+}

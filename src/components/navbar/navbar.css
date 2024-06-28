@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgb(231, 231, 231);
+    width: 100wv;
+}
+
+.navbar{
+    height: 12vh;
+
+    .logo{
+        color: rgb(220, 74, 45);
+        margin-left: 1.5rem;
+        padding: .65rem 1.25rem;
+        font-weight: 500;
+        background-color: rgb(231, 231, 231);
+    }
+
+    .Tabs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .5rem;
+        gap: 3rem;
+        color: #333;
+        border: 3px solid rgb(231, 231, 231);
+        border-radius: 2rem;
+
+        .active{
+            color: white;
+            background-color: rgb(220, 74, 45);
+            padding: .5rem .5rem;
+            border-radius: 1.25rem;
+        }
+
+
+        .tab{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .25rem;
+
+            img{
+                width: 1.5rem;
+            }
+
+            
+        }
+
+        
+    }
+
+    .profile{
+        margin-right: 2rem;
+
+        img{
+            width: 2rem;
+        }
+    }
+    
+}

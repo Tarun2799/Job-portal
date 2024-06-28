@@ -1,0 +1,44 @@
+
+.logo{
+  margin: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  img{
+    width: 2rem;
+  }
+}
+
+.company-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 4rem;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+  }
+  
+  
+  .details {
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detail {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: rgb(145, 145, 145);
+  }
+  
+  .value {
+    margin-left: 5px;
+    text-align: left;
+  }

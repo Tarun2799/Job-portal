@@ -1,0 +1,55 @@
+.right{
+    padding: 2rem;
+    /* height: 70vh; */
+    border-left: 2px solid rgb(231, 231, 231);
+
+
+    .buttons{
+        display: flex;
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: .25rem;
+            color: white;
+            background-color: rgb(220, 74, 45);
+        }
+
+        .active{
+            background-color: white;
+            color: rgb(220, 74, 45);
+            border: 1px solid rgb(220, 74, 45);
+        }
+        
+        gap: 1rem;
+
+        span{
+            img{
+                width: 1.25rem;
+            }
+        }
+    }
+
+    .sections{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+
+        .section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .sec{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            img{
+                width: 1.25rem;
+            }
+        }
+    }
+}
+

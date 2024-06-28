@@ -1,0 +1,13 @@
+.section{
+    padding: 1rem 0; 
+    font-weight: 600;
+    border-bottom: 3px solid rgb(231, 231, 231);
+
+    span{
+        color:  rgb(122, 122, 122);
+        padding: 0 3rem;
+    }
+    .active{
+        color: rgb(220, 74, 45);
+    }
+}
